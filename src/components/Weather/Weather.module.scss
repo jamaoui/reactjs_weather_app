@@ -1,0 +1,53 @@
+@import "src/assets/scss/variables";
+
+div.container {
+  display: flex;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 1rem;
+  color: white;
+}
+
+.weather_infos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  gap: $weather-infos-gap;
+}
+
+.temperature {
+  display: flex;
+  font-size: 3rem;
+}
+
+.infos {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 0.8rem;
+  width: 20vw;
+  padding: 0.5rem;
+  border-radius: 25px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  gap: calc($weather-infos-gap + 10%);
+
+  .border_right {
+    border-right: 3px solid rgba(255, 255, 255, 0.2);
+    padding-right: 1.2rem;
+  }
+}
+
+.separator {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
