@@ -1,9 +1,12 @@
 import React from 'react';
+import {SvgHoc} from "./SvgHoc";
 
 function Windy({width = '25px', height = '25px'}) {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg"  width="2048px" height="2048px"
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width={width}
+                 height={height}
                  viewBox="0 0 2048 2048">
 
                 <g id="Layer_x0020_1">
@@ -30,4 +33,4 @@ function Windy({width = '25px', height = '25px'}) {
     );
 }
 
-export default Windy;
+export default SvgHoc(Windy);

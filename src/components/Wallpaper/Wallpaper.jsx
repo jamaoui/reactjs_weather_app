@@ -1,5 +1,6 @@
 import wallpaper from '../../assets/img/wallpaper.jpg'
 import './Wallpaper.scss'
+
 export const Wallpaper = () => {
     return (
         <>

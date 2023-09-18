@@ -20,6 +20,7 @@ div.container {
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
+  margin-top: 0.5rem;
   opacity: 0.6;
   gap: $weather-infos-gap;
 }
@@ -34,8 +35,8 @@ div.container {
   margin-bottom: 1rem;
   display: flex;
   font-size: 0.8rem;
-  width: 20vw;
-  padding: 0.5rem;
+  width: 45vw;
+  padding: 1rem 0.5rem;
   border-radius: 25px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
