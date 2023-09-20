@@ -36,9 +36,7 @@ export const Weather = () => {
     }
     return (
         <>
-            <Card
-
-                className={styles.container}>
+            <Card className={styles.container}>
                 {weather.isLoaded ?
                     <Card.Body>
                         <Card.Title>
